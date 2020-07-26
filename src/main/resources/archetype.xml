@@ -1,0 +1,31 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>springboot-api</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+    <source>src/main/java/AppConfig.java</source>
+    <source>src/main/java/AppConstants.java</source>
+    <source>src/main/java/AppController.java</source>
+    <source>src/main/java/AppDao.java</source>
+    <source>src/main/java/AppDaoImpl.java</source>
+    <source>src/main/java/AppDto.java</source>
+    <source>src/main/java/AppRequestDto.java</source>
+    <source>src/main/java/AppResponseDto.java</source>
+    <source>src/main/java/AppException.java</source>
+    <source>src/main/java/AppExceptionHandler.java</source>
+    <source>src/main/java/RequestIdFilter.java</source>
+    <source>src/main/java/ExecutorNameInterceptor.java</source>
+    <source>src/main/java/RequestResponseLogInterceptor</source>
+    <source>src/main/java/AppLogic.java</source>
+    <source>src/main/java/AppLogicImpl.java</source>
+    <source>src/main/java/AppService.java</source>
+    <source>src/main/java/AppServiceImpl.java</source>
+    <source>src/main/java/MDCUtil.java</source>
+  </sources>
+  <resources>
+  	<resource>application.yml</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
